@@ -1,0 +1,1 @@
+//usr/local/bin/eosio-ld CMakeFiles/ordercontrct.dir/ordercontrct.obj -o ordercontrct.wasm 

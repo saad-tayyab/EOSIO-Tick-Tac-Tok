@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello
+CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct/CMakeFiles /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,32 +117,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named ordercontrct
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+ordercontrct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ordercontrct
+.PHONY : ordercontrct
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+ordercontrct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordercontrct.dir/build.make CMakeFiles/ordercontrct.dir/build
+.PHONY : ordercontrct/fast
 
 # target to build an object file
-hello.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.obj
-.PHONY : hello.obj
+ordercontrct.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordercontrct.dir/build.make CMakeFiles/ordercontrct.dir/ordercontrct.obj
+.PHONY : ordercontrct.obj
 
 # target to preprocess a source file
-hello.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.i
-.PHONY : hello.i
+ordercontrct.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordercontrct.dir/build.make CMakeFiles/ordercontrct.dir/ordercontrct.i
+.PHONY : ordercontrct.i
 
 # target to generate assembly for a file
-hello.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.s
-.PHONY : hello.s
+ordercontrct.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordercontrct.dir/build.make CMakeFiles/ordercontrct.dir/ordercontrct.s
+.PHONY : ordercontrct.s
 
 # Help Target
 help:
@@ -152,10 +152,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello"
-	@echo "... hello.obj"
-	@echo "... hello.i"
-	@echo "... hello.s"
+	@echo "... ordercontrct"
+	@echo "... ordercontrct.obj"
+	@echo "... ordercontrct.i"
+	@echo "... ordercontrct.s"
 .PHONY : help
 
 

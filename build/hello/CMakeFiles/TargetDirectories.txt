@@ -1,3 +1,0 @@
-/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/hello.dir
-/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/edit_cache.dir
-/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/rebuild_cache.dir

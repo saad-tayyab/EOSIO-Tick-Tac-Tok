@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/hello.cpp" "CMakeFiles/hello.dir/hello.obj" "gcc" "CMakeFiles/hello.dir/hello.obj.d"
+  "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/ordercontrct.cpp" "CMakeFiles/ordercontrct.dir/ordercontrct.obj" "gcc" "CMakeFiles/ordercontrct.dir/ordercontrct.obj.d"
   )
 
 # Targets to which this target links.

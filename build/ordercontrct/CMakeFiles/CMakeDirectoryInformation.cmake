@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

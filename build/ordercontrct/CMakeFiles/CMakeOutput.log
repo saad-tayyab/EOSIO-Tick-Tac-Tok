@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.wasm"
 
-The C compiler identification is Clang, found in "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.wasm"
+The C compiler identification is Clang, found in "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.wasm"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: //usr/local/bin/eosio-cpp 
@@ -24,5 +24,5 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
 
-The CXX compiler identification is Clang, found in "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.wasm"
+The CXX compiler identification is Clang, found in "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/ordercontrct/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.wasm"
 

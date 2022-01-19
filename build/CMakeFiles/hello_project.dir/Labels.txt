@@ -1,14 +1,14 @@
 # Target labels
  hello_project
 # Source files and their labels
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project-complete.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-build.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-configure.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-download.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-install.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-mkdir.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-patch.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-test.rule
-/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-update.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles/hello_project
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles/hello_project.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles/hello_project-complete.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-build.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-configure.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-download.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-install.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-mkdir.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-patch.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-test.rule
+/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-update.rule

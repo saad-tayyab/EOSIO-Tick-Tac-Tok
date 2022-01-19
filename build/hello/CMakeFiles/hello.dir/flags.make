@@ -4,7 +4,7 @@
 # compile CXX with //usr/local/bin/eosio-cpp
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/saadtayyab/Desktop/Projects/EOSIO/hello/src/../include
+CXX_INCLUDES = -I/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/../include
 
-CXX_FLAGS = -O3 -abigen -abigen_output=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/hello.abi -contract hello -R/Users/saadtayyab/Desktop/Projects/EOSIO/hello/src/../ricardian
+CXX_FLAGS = -O3 -abigen -abigen_output=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/hello.abi -contract hello -R/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/../ricardian
 

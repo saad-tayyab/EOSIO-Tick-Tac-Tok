@@ -1,6 +1,6 @@
  CMakeFiles/hello.dir/hello.obj: \
   /var/folders/fw/lxp2z7b502qgy8lwzchf166h0000gq/T//hello.cpp \
-  /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src/../include/hello.hpp \
+  /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/../include/hello.hpp \
   /usr/local/Cellar/eosio.cdt/1.8.1/opt/eosio.cdt/bin/../include/eosiolib/contracts/eosio/eosio.hpp \
   /usr/local/Cellar/eosio.cdt/1.8.1/opt/eosio.cdt/bin/../include/eosiolib/contracts/eosio/action.hpp \
   /usr/local/Cellar/eosio.cdt/1.8.1/opt/eosio.cdt/bin/../include/libcxx/cstdlib \

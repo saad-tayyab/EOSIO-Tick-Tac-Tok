@@ -21,43 +21,43 @@ Exit due to wasm-ld failure
 
 
 Detecting C compiler ABI info failed to compile with the following output:
-Change Dir: /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles/CMakeTmp
+Change Dir: /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_05f5f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_05f5f.dir/build.make CMakeFiles/cmTC_05f5f.dir/build
-Building C object CMakeFiles/cmTC_05f5f.dir/CMakeCCompilerABI.c.obj
-//usr/local/bin/eosio-cc   -O3    -v -MD -MT CMakeFiles/cmTC_05f5f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_05f5f.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_05f5f.dir/CMakeCCompilerABI.c.obj -c /Applications/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f682f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f682f.dir/build.make CMakeFiles/cmTC_f682f.dir/build
+Building C object CMakeFiles/cmTC_f682f.dir/CMakeCCompilerABI.c.obj
+//usr/local/bin/eosio-cc   -O3    -v -MD -MT CMakeFiles/cmTC_f682f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_f682f.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_f682f.dir/CMakeCCompilerABI.c.obj -c /Applications/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 clang version 9.0.1 (https://github.com/eosio/clang.git 6a2b43d5cb01f666af0dbfb31a3cbf2e17967909) (https://github.com/eosio/llvm d700c78db1918c7a2783c37a97d42d6fcd223e4d)
 Target: x86_64-apple-darwin21.2.0
 Thread model: posix
-InstalledDir: /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles/CMakeTmp
-Linking C executable cmTC_05f5f.wasm
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f5f.dir/link.txt --verbose=1
-//usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_05f5f.dir/CMakeCCompilerABI.c.obj -o cmTC_05f5f.wasm 
+InstalledDir: /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/CMakeTmp
+Linking C executable cmTC_f682f.wasm
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f682f.dir/link.txt --verbose=1
+//usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_f682f.dir/CMakeCCompilerABI.c.obj -o cmTC_f682f.wasm 
 eosio-ld: Unknown command line argument '-v'.  Try: '//usr/local/bin/eosio-ld --help'
 eosio-ld: Did you mean '  -L'?
-make[4]: *** [cmTC_05f5f.wasm] Error 1
-make[3]: *** [cmTC_05f5f/fast] Error 2
+make[4]: *** [cmTC_f682f.wasm] Error 1
+make[3]: *** [cmTC_f682f/fast] Error 2
 
 
 
 
 Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles/CMakeTmp
+Change Dir: /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_50d6f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50d6f.dir/build.make CMakeFiles/cmTC_50d6f.dir/build
-Building CXX object CMakeFiles/cmTC_50d6f.dir/CMakeCXXCompilerABI.cpp.obj
-//usr/local/bin/eosio-cpp   -O3    -v -MD -MT CMakeFiles/cmTC_50d6f.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_50d6f.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_50d6f.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_877bd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_877bd.dir/build.make CMakeFiles/cmTC_877bd.dir/build
+Building CXX object CMakeFiles/cmTC_877bd.dir/CMakeCXXCompilerABI.cpp.obj
+//usr/local/bin/eosio-cpp   -O3    -v -MD -MT CMakeFiles/cmTC_877bd.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_877bd.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_877bd.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 clang version 9.0.1 (https://github.com/eosio/clang.git 6a2b43d5cb01f666af0dbfb31a3cbf2e17967909) (https://github.com/eosio/llvm d700c78db1918c7a2783c37a97d42d6fcd223e4d)
 Target: x86_64-apple-darwin21.2.0
 Thread model: posix
-InstalledDir: /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles/CMakeTmp
-Linking CXX executable cmTC_50d6f.wasm
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50d6f.dir/link.txt --verbose=1
-//usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_50d6f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_50d6f.wasm 
+InstalledDir: /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles/CMakeTmp
+Linking CXX executable cmTC_877bd.wasm
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_877bd.dir/link.txt --verbose=1
+//usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_877bd.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_877bd.wasm 
 eosio-ld: Unknown command line argument '-v'.  Try: '//usr/local/bin/eosio-ld --help'
 eosio-ld: Did you mean '  -L'?
-make[4]: *** [cmTC_50d6f.wasm] Error 1
-make[3]: *** [cmTC_50d6f/fast] Error 2
+make[4]: *** [cmTC_877bd.wasm] Error 1
+make[3]: *** [cmTC_877bd/fast] Error 2
 
 
 

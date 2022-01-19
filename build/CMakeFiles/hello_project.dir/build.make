@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/hello
+CMAKE_SOURCE_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build
+CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build
 
 # Utility rule file for hello_project.
 
@@ -77,56 +77,56 @@ CMakeFiles/hello_project-complete: hello_project-prefix/src/hello_project-stamp/
 CMakeFiles/hello_project-complete: hello_project-prefix/src/hello_project-stamp/hello_project-build
 CMakeFiles/hello_project-complete: hello_project-prefix/src/hello_project-stamp/hello_project-install
 CMakeFiles/hello_project-complete: hello_project-prefix/src/hello_project-stamp/hello_project-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'hello_project'"
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project-complete
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'hello_project'"
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles/hello_project-complete
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-done
 
 hello_project-prefix/src/hello_project-stamp/hello_project-build: hello_project-prefix/src/hello_project-stamp/hello_project-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && $(MAKE)
 
 hello_project-prefix/src/hello_project-stamp/hello_project-configure: hello_project-prefix/tmp/hello_project-cfgcmd.txt
 hello_project-prefix/src/hello_project-stamp/hello_project-configure: hello_project-prefix/src/hello_project-stamp/hello_project-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -DCMAKE_TOOLCHAIN_FILE=//usr/local/opt/eosio.cdt/lib/cmake/eosio.cdt/EosioWasmToolchain.cmake "-GUnix Makefiles" /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -DCMAKE_TOOLCHAIN_FILE=//usr/local/opt/eosio.cdt/lib/cmake/eosio.cdt/EosioWasmToolchain.cmake "-GUnix Makefiles" /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-configure
 
 hello_project-prefix/src/hello_project-stamp/hello_project-download: hello_project-prefix/src/hello_project-stamp/hello_project-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'hello_project'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'hello_project'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-download
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-download
 
 hello_project-prefix/src/hello_project-stamp/hello_project-install: hello_project-prefix/src/hello_project-stamp/hello_project-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-install
 
 hello_project-prefix/src/hello_project-stamp/hello_project-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'hello_project'"
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/tmp
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'hello_project'"
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/tmp
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-mkdir
 
 hello_project-prefix/src/hello_project-stamp/hello_project-patch: hello_project-prefix/src/hello_project-stamp/hello_project-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-patch
 
 hello_project-prefix/src/hello_project-stamp/hello_project-test: hello_project-prefix/src/hello_project-stamp/hello_project-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-test
 
 hello_project-prefix/src/hello_project-stamp/hello_project-update: hello_project-prefix/src/hello_project-stamp/hello_project-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'hello_project'"
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'hello_project'"
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello_project-prefix/src/hello_project-stamp/hello_project-update
 
 hello_project: CMakeFiles/hello_project
 hello_project: CMakeFiles/hello_project-complete
@@ -150,6 +150,6 @@ CMakeFiles/hello_project.dir/clean:
 .PHONY : CMakeFiles/hello_project.dir/clean
 
 CMakeFiles/hello_project.dir/depend:
-	cd /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/saadtayyab/Desktop/Projects/EOSIO/hello /Users/saadtayyab/Desktop/Projects/EOSIO/hello /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/CMakeFiles/hello_project.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello_project.dir/depend
 

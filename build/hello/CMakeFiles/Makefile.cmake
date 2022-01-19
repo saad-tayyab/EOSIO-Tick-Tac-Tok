@@ -96,7 +96,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "/Users/saadtayyab/Desktop/Projects/EOSIO/hello/src/CMakeLists.txt"
+  "/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

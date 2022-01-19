@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/hello/src
+CMAKE_SOURCE_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello
+CMAKE_BINARY_DIR = /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/hello.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles --progress-num=1,2 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles --progress-num=1,2 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/hello/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/saadtayyab/Desktop/Projects/EOSIO/EOSIO-Tick-Tac-Tok/build/hello/CMakeFiles 0
 .PHONY : CMakeFiles/hello.dir/rule
 
 # Convenience name for target.

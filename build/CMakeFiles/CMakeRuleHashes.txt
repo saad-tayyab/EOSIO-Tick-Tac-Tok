@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+0ad9c41b03133a2f2ff5f3a3f2c1769d CMakeFiles/hello_project
+a60d4c467d9c0d5d2ad798c8aabf07e4 CMakeFiles/hello_project-complete
+11b654c9fd0861959a9968828c963186 hello_project-prefix/src/hello_project-stamp/hello_project-build
+9291526ed401951763d425c8f7b586ce hello_project-prefix/src/hello_project-stamp/hello_project-configure
+ad597de478aced243fc2285202de58a8 hello_project-prefix/src/hello_project-stamp/hello_project-download
+0e9d72705986a81fb8e21bb369f0c97d hello_project-prefix/src/hello_project-stamp/hello_project-install
+7507115799c2f3d8b10f5c610af61708 hello_project-prefix/src/hello_project-stamp/hello_project-mkdir
+47c91f0bcba008aad31dd9de5155f103 hello_project-prefix/src/hello_project-stamp/hello_project-patch
+ffc8e361ea8ac947526c5d4fc80d8f8d hello_project-prefix/src/hello_project-stamp/hello_project-test
+19a5c25f5a84ec381a23d2fd20719b53 hello_project-prefix/src/hello_project-stamp/hello_project-update

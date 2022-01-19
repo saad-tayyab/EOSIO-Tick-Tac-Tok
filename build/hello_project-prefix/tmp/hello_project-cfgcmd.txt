@@ -1,0 +1,1 @@
+cmd='/Applications/CMake.app/Contents/bin/cmake;-DCMAKE_TOOLCHAIN_FILE=//usr/local/opt/eosio.cdt/lib/cmake/eosio.cdt/EosioWasmToolchain.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

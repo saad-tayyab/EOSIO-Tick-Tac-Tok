@@ -1,0 +1,3 @@
+/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/hello_project.dir
+/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/edit_cache.dir
+/Users/saadtayyab/Desktop/Projects/EOSIO/hello/build/CMakeFiles/rebuild_cache.dir

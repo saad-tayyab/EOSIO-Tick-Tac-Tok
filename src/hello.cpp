@@ -7,7 +7,13 @@ void hello::create(const name &challenger, name &host) {
     check(challenger != host, "failed, challenger shouldn't be the same as host");
 
     // Check if game already exists
-    games existing_host_games(get_self(), host.value);
+    game_index existing_host_games(get_self(), host.value);
+
+    auto _gameskey = existing_host_games.get_index<name("gameskey")>(); //set secondary key
+
+    auto itrc = _gameskey.find(challenger.value);
+    check(itrc==_gameskey.end(), "game already exists!sa"); //if found
+
     auto itr = existing_host_games.find(challenger.value);
     check(itr == existing_host_games.end(), "game already exists");
 
@@ -24,7 +30,7 @@ void hello::close(const name &challenger, const name &host)
     require_auth(host);
 
     // Check if game exists
-    games existing_host_games(get_self(), host.value);
+    game_index existing_host_games(get_self(), host.value);
     auto itr = existing_host_games.find(challenger.value);
     check(itr != existing_host_games.end(), "game doesn't exists");
 

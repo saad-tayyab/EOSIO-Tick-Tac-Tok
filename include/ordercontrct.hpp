@@ -1,7 +1,7 @@
 #pragma once
 #include <eosio/action.hpp>
 #include <eosio/eosio.hpp>
-\
+
 // Generic eosio library, i.e. print, type, math, etc
 using namespace eosio;
 
